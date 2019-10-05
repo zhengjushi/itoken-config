@@ -10,7 +10,7 @@ spring:
       label: master
       server:
         git:
-          uri: git@github.com:zhengjushi/itoken-config.git
+          uri: https://github.com/zhengjushi/itoken-config.git
           search-paths: respo
           username: zhengjushi
           password: nizhegesb3313168
@@ -18,7 +18,7 @@ spring:
     base-url: http://192.168.133.131:9411
 
 server:
-  port: 8762
+  port: 8888
 
 eureka:
   client:

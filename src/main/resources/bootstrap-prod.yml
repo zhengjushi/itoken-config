@@ -18,7 +18,7 @@ spring:
     base-url: http://192.168.133.131:9411
 
 server:
-  port: 8762
+  port: 8888
 
 eureka:
   client:
