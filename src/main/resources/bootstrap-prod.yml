@@ -10,7 +10,7 @@ spring:
       label: master
       server:
         git:
-          uri: git@github.com:zhengjushi/itoken-config.git
+          uri: https://github.com/zhengjushi/itoken-config.git
           search-paths: respo
           username: zhengjushi
           password: nizhegesb3313168
