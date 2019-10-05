@@ -7,12 +7,13 @@ spring:
         url: http://localhost:8084
   cloud:
     config:
+      label: master
       server:
         git:
-          uri: https://github.com/zhengjushi/itoken-config.git
-          search-paths: respo
-          username: zhengjushi
-          password: nizhegesb3313168
+        uri: https://github.com/zhengjushi/itoken-config.git
+        search-paths: respo
+        username: zhengjushi
+        password: nizhegesb3313168
   zipkin:
     base-url: http://localhost:9411
 
